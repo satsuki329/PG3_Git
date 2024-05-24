@@ -5,10 +5,10 @@ using namespace std;
 
 int main()
 {
-	list<string> lst{"Tokyo","kanda","Akihabara","Okachimachi","Ueno","Uguisudani","Nippori","Tabata","Komagome","Sugamo","Otuka","Ikebukuro","Mejiro","takadanobaba",
+	list<const char*> lst{"Tokyo","kanda","Akihabara","Okachimachi","Ueno","Uguisudani","Nippori","Tabata","Komagome","Sugamo","Otuka","Ikebukuro","Mejiro","takadanobaba",
 		"Shin-Okubo","Shinjuku","Yoyogi","Harajuku","Shibuya","Ebisu","Meguro","Gotanda","Osaki","Shinagawa","Tamachi","Hamamatucho","Shimbashi","Yurakucho"};
 
-	list<string>::iterator itr;
+	list<const char*>::iterator itr;
 
 	printf("昭和3年の路線図(鉄道省時代)\n\n");
 
