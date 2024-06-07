@@ -11,6 +11,8 @@ public:
 	void attack();
 	void recession();
 
+	bool endflag = true;
+
 	// メンバ関数ポインタのテーブル
 	static void (ENEMY::* table[])();
 
@@ -37,16 +39,19 @@ void ENEMY::Update() {
 	// 関数ポインタのテーブルから関数を実行
 	(this->*table[index])();
 
-	cout << "1を入力で次の行動へ" << endl;
-	scanf_s("%d\n", &num);
+	cout << "1を入力で次の行動,1以外で終了" << endl;
+	scanf_s("%d", &num);
 
 	if (num == 1) {
 		index += 1;
-		(this->*table[index])();
 		if (index == 3)
 		{
 			index = 0;
 		}
+	}
+	else
+	{
+		endflag = false;
 	}
 }
 
@@ -62,7 +67,10 @@ int main()
 {
 	ENEMY my;
 
-	my.Update();
+	while (my.endflag)
+	{
+		my.Update();
+	}
 
-	//return 0;
+	return 0;
 }
