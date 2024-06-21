@@ -21,6 +21,7 @@ private:
 	int index = 0,
 		num = 0;
 };
+//axws
 
 void ENEMY::approach() {
 	cout << "敵の接近！\n" << endl;
