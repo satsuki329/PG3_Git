@@ -1,2 +1,91 @@
 ﻿  main.cpp
-  PG3_1_1.vcxproj -> C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3\PG3_1_1\x64\Debug\PG3_1_1.exe
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244: 'return': 'Type2' から 'Type' への変換です。データが失われる可能性があります。
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         with
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         [
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:             Type2=double
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         ]
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         and
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         [
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:             Type=float
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         ]
+  C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30):
+  テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
+  	C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(34,31):
+  	コンパイル対象の クラス テンプレート インスタンス化 'TemplateClass<float,double>' のリファレンスを確認してください
+  	C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(13,7):
+  	クラス テンプレート メンバー関数 'Type TemplateClass<Type,double>::Min(void)' のコンパイル中
+          with
+          [
+              Type=float
+          ]
+  		C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(41,117):
+  		'main' の 'TemplateClass<float,double>::Min' への最初の参照を参照してください
+  
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244: 'return': 'Type2' から 'Type' への変換です。データが失われる可能性があります。
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         with
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         [
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:             Type2=int
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         ]
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         and
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         [
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:             Type=float
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         ]
+  C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30):
+  テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
+  	C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(33,28):
+  	コンパイル対象の クラス テンプレート インスタンス化 'TemplateClass<float,int>' のリファレンスを確認してください
+  	C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(13,7):
+  	クラス テンプレート メンバー関数 'Type TemplateClass<Type,int>::Min(void)' のコンパイル中
+          with
+          [
+              Type=float
+          ]
+  		C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(40,108):
+  		'main' の 'TemplateClass<float,int>::Min' への最初の参照を参照してください
+  
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244: 'return': 'Type2' から 'Type' への変換です。データが失われる可能性があります。
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         with
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         [
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:             Type2=double
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         ]
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         and
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         [
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:             Type=int
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         ]
+  C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30):
+  テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
+  	C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(32,29):
+  	コンパイル対象の クラス テンプレート インスタンス化 'TemplateClass<int,double>' のリファレンスを確認してください
+  	C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(13,7):
+  	クラス テンプレート メンバー関数 'Type TemplateClass<Type,double>::Min(void)' のコンパイル中
+          with
+          [
+              Type=int
+          ]
+  		C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(39,111):
+  		'main' の 'TemplateClass<int,double>::Min' への最初の参照を参照してください
+  
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244: 'return': 'Type2' から 'Type' への変換です。データが失われる可能性があります。
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         with
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         [
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:             Type2=float
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         ]
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         and
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         [
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:             Type=int
+C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30): warning C4244:         ]
+  C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(20,30):
+  テンプレートインスタンス化コンテキスト (最初に最も古いもの) は
+  	C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(31,28):
+  	コンパイル対象の クラス テンプレート インスタンス化 'TemplateClass<int,float>' のリファレンスを確認してください
+  	C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(13,7):
+  	クラス テンプレート メンバー関数 'Type TemplateClass<Type,float>::Min(void)' のコンパイル中
+          with
+          [
+              Type=int
+          ]
+  		C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\main.cpp(38,110):
+  		'main' の 'TemplateClass<int,float>::Min' への最初の参照を参照してください
+  
+  LINK : 前回のインクリメンタル リンクで C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\x64\Debug\PG3_1_1.exe が見つからなかったか、ビルドされませんでした。フル リンクを行います。
+  PG3_1_1.vcxproj -> C:\Users\same_\OneDrive\デスクトップ\2024_授業資料\PG3_main\PG3_Git\PG3_1_1\x64\Debug\PG3_1_1.exe
